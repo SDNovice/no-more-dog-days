@@ -13,9 +13,8 @@ h1 {
     line-height: 38px;
     text-transform: lowercase;
     white-space: nowrap;
-    background-color: rgb(85, 7, 133);
+    background-color: #5c1c9c;
     border: 1px solid rgb(255, 255, 255);
-    width: 400px;
     box-sizing: border-box; 
     float: left;
 }
@@ -31,21 +30,21 @@ h1 {
     line-height: 38px;
     text-transform: lowercase;
     white-space: nowrap;
-    background-color: rgb(85, 7, 133);
+    background-color: #5C1C9C;
     border-radius: 0px;
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
-    width: 400px;
     box-sizing: border-box; 
     float: right;
 }
 
 figure {
-  position: absolute;
   top: 60px;
   left: -30px;
-  width: 390px;
-  height: 200px;
-  border: 3px solid green;
+  border: 3px solid #EB4283;
 }
     
+.box img {
+    width: 100%;     
+    height: 100%; 
+}
