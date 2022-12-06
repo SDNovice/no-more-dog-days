@@ -2,7 +2,6 @@ body {
     background-image: url(./emily-bernal-r2F5ZIEUPtk-unsplash.jpg);
 }
 
-
 h1 {
     display: inline-block;
     height: 50px;
@@ -20,8 +19,6 @@ h1 {
     box-sizing: border-box; 
     float: left;
 }
-
-
 
 .saved-activities {
     display: inline-block;
