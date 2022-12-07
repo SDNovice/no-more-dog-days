@@ -13,13 +13,23 @@
 
 <body>
     <header>
+        <h1>Header of sorts</h1>
+    </heade>
+    <button class="saved-activities" id="saved">Link to view saved activities</button>
+    
+    <figure>Random Image of a Dog</figure>
+    <button>Generate a New Activity!</button>
         <h1 class="six columns">Header of Sorts</h1>
-        <a href="saved.html" class="saved-activities">Link to view saved activities</a>
+        <a href="saved.html" id="saved" class="saved-activities">Link to view saved activities</a>
     </header>
 
     <div class="row">
         <figure class="box one-half column"></figure>
-        <button class="one-half column">Generate a New Activity!</button>
+        <div>
+            <span id="activity">Click below for an activity!</span>
+            <button id="generate" class="one-half column">Generate a New Activity!</button>
+            <button id="save">Save Activity!</button>
+        </div>
     </div>
     <script src="./assets/script.js"></script>
 </body>
