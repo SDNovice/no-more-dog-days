@@ -10,12 +10,12 @@ body {
 h1 {
     background-color: #5c1c9c;
     padding: 30px;
-     float: center;
-     text-align: center;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 60;
-     color:white;
-     
+    float: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    color: white;
+
 
     /* display: inline-block;
     height: 50px;
@@ -30,7 +30,7 @@ h1 {
     background-color: #5c1c9c;
     border: 1px solid rgb(255, 255, 255);
     box-sizing: border-box;  */
-   
+
 }
 
 
@@ -48,42 +48,42 @@ h1 {
 
 .saved-activities {
     background-color: #5c1c9c;
-    color:white; 
+    color: white;
     padding: 10px;
     height: 80px;
-     float: center;
-     text-align: center;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 60;
-     border: 3px solid white;
-    
+    float: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
+
 }
 
 #generate {
     background-color: #5c1c9c;
-    color:white; 
+    color: white;
     padding: 10px;
     height: 80px;
-     float: left;
-     text-align: center;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 60;
-     border: 3px solid white;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
 }
 
 #save {
     background-color: #5c1c9c;
-    color:white; 
+    color: white;
     padding: 10px;
     height: 80px;
-     float: right;
-     text-align: center;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 60;
-     border: 3px solid white;
+    float: right;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
 }
 
-    /* display: inline-block;
+/* display: inline-block;
     height: 50px;
     padding: 0 30px;
     color: white;
@@ -109,16 +109,16 @@ figure {
     padding: 40px 10px;
     text-decoration: none;
 }
-    
-img{
-    height:40px;
+
+img {
+    height: 40px;
     float: left;
-   width: 40px;
-   border: 9px ridge blue;
+    width: 40px;
+    border: 9px ridge blue;
 }
 
 
 .box img {
-    width: 100%;     
-    height: 100%; 
+    width: 100%;
+    height: 100%;
 }
