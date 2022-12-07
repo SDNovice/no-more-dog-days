@@ -12,3 +12,20 @@ fetch (dogPics)
             console.log(fig);
             fig.appendChild(img);
         });
+
+var bored = "https://www.boredapi.com/api/activity"
+fetch(bored)
+    .then (function (response){
+        return response.json();
+    })
+        .then( function (data){
+            var activity = data.activity;
+            var type = data.type;
+            var num = data.participants;
+
+            var span = document.querySelector('span');
+            span.textContent = activity + type + num;
+        });
+
+var gnBtn = document.getElementById('generate');
+gnBtn.addEventListener('click' );
