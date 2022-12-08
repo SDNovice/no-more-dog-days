@@ -1,9 +1,23 @@
 body {
     background-image: url(./emily-bernal-r2F5ZIEUPtk-unsplash.jpg);
+
 }
 
+
+
+
+
 h1 {
-    display: inline-block;
+    background-color: #5c1c9c;
+    padding: 30px;
+    float: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    color: white;
+
+
+    /* display: inline-block;
     height: 50px;
     padding: 0 30px;
     color: white;
@@ -15,12 +29,61 @@ h1 {
     white-space: nowrap;
     background-color: #5c1c9c;
     border: 1px solid rgb(255, 255, 255);
-    box-sizing: border-box; 
-    float: left;
+    box-sizing: border-box;  */
+
 }
 
+
+/* div {
+    background-color: #5c1c9c;
+    padding: 10px;
+    height: 30px;
+     float: center;
+     text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 60;
+     color:white;
+} */
+
+
 .saved-activities {
-    display: inline-block;
+    background-color: #5c1c9c;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    float: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
+
+}
+
+#generate {
+    background-color: #5c1c9c;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
+}
+
+#save {
+    background-color: #5c1c9c;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    float: right;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 60;
+    border: 3px solid white;
+}
+
+/* display: inline-block;
     height: 50px;
     padding: 0 30px;
     color: white;
@@ -35,17 +98,27 @@ h1 {
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
     box-sizing: border-box; 
-    float: right;
-}
+    float: right; */
+
 
 figure {
-  top: 60px;
-  left: -30px;
-  border: 3px solid #EB4283;
-}
-    
-.box img {
-    width: 100%;     
-    height: 100%; 
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+    text-decoration: none;
 }
 
+img {
+    height: 40px;
+    float: left;
+    width: 40px;
+    border: 9px ridge blue;
+}
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
