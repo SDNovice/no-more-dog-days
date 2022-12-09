@@ -22,23 +22,52 @@ fetch(bored)
     }
 
 var gnBtn = document.getElementById('generate');
-
+if (gnBtn){
 gnBtn.addEventListener('click', findAct);
-
-function saveAct(){
-    var svAct = document.getElementById('activity');
-    localStorage.setItem('activity', svAct.textContent);
 }
 
-var svBtn = document.getElementById('save');
-svBtn.addEventListener('click', saveAct);
-var saves = document.getElementById('savedActs');
-function renderSaves() {
-    var saves = document.getElementById('savedActs');
-    var li = document.createElement('li');
-    li.textContent = localStorage.getItem(activity);
-    saves.appendChild(li);
+document.addEventListener('DOMContentLoaded', function (event) {
+	var pageId = document.getElementsByTagName('body')[0].id;
+	console.log('pageID = ', pageId);
+	if (pageId === 'index') {
+		console.log('page 1 loaded');
+		page1();
+	}
+	if (pageId === 'page2') {
+        event.preventDefault();
+		console.log('page2 loaded');
+		page2();
+	}
+});
+
+//page 1
+function page1() {
+	var ActText = '';
+	var ActTextEl = document.getElementById('activity');
+	var btn1El = document.getElementById('save');
+	// var linkToPage2El = document.getElementById('linkToPage2');
+	var page2BtnEl = document.getElementById('saved');
+	btn1El.addEventListener('click', function () {
+		ActText= ActTextEl.textContent;
+		localStorage.setItem('ActText', ActText);
+	});
+	page2BtnEl.addEventListener('click', function () {
+		window.location.href = 'saved.html';
+	});
 }
 
-var sHtml = document.getElementById('saved');
-    sHtml.addEventListener('click', renderSaves);
+//page 2
+function page2() {
+	var ActEl = document.getElementById('savedActs');
+	var btn2El = document.getElementById('displaySv');
+	console.log('line 37 is about to run');
+	btn2El.addEventListener('click', function () {
+		var ActText = localStorage.getItem('ActText');
+		ActEl.innerHTML = ActText;
+	});
+    var inBtn = document.getElementById('gen');
+    inBtn.addEventListener('click', function (event){
+        event.preventDefault();
+        window.location.href = "index.html";
+    })
+}
