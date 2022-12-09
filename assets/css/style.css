@@ -1,33 +1,36 @@
+:root {
+    --blue: blue;
+    --purple: #5c1c9c;
+    --white: white;
+}
+
 body {
     background-image: url(./emily-bernal-r2F5ZIEUPtk-unsplash.jpg);
 
 }
 
 
-
-
-
 h1 {
-    background-color: #5c1c9c;
+    background-color: var(--purple);
     padding: 30px;
     float: center;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
-    color: white;
+    color: var(--white);
 
 
     /* display: inline-block;
     height: 50px;
     padding: 0 30px;
-    color: white;
+    color: var(--white);
     text-align: center;
     font-size: 20px;
     font-weight: 60;
     line-height: 38px;
     text-transform: lowercase;
     white-space: nowrap;
-    background-color: #5c1c9c;
+    background-color: var(--purple);
     border: 1px solid rgb(255, 255, 255);
     box-sizing: border-box;  */
 
@@ -35,65 +38,65 @@ h1 {
 
 
 /* div {
-    background-color: #5c1c9c;
+    background-color: var(--purple);
     padding: 10px;
     height: 30px;
      float: center;
      text-align: center;
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-weight: 60;
-     color:white;
+     color:var(--white);
 } */
 
 
 .saved-activities {
-    background-color: #5c1c9c;
-    color: white;
+    background-color: var(--purple);
+    color: var(--white);
     padding: 10px;
     height: 80px;
     float: center;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 
 }
 
 #generate {
-    background-color: #5c1c9c;
-    color: white;
+    background-color: var(--purple);
+    color: var(--white);
     padding: 10px;
     height: 80px;
     float: left;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
 
 #save {
-    background-color: #5c1c9c;
-    color: white;
+    background-color: var(--purple);
+    color: var(--white);
     padding: 10px;
     height: 80px;
     float: right;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
 
 /* display: inline-block;
     height: 50px;
     padding: 0 30px;
-    color: white;
+    color: var(--white);
     text-align: center;
     font-size: 20px;
     font-weight: 60;
     line-height: 38px;
     text-transform: lowercase;
     white-space: nowrap;
-    background-color: #5C1C9C;
+    background-color: var(--purple);
     border-radius: 0px;
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
@@ -104,7 +107,7 @@ h1 {
 figure {
     float: left;
     display: block;
-    color: white;
+    color: var(--white);
     text-align: center;
     padding: 40px 10px;
     text-decoration: none;
@@ -114,7 +117,7 @@ img {
     height: 40px;
     float: left;
     width: 40px;
-    border: 9px ridge blue;
+    border: 9px ridge var(--blue);
 }
 
 
