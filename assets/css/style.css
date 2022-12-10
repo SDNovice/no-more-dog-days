@@ -92,9 +92,9 @@ h1 {
 #generate {
     background-color: var(--purple);
     color: var(--white);
-    padding: 10px;
+    /* padding: 10px; */
     height: 80px;
-    float: left;
+    /* float: left; */
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
@@ -104,9 +104,9 @@ h1 {
 #save {
     background-color: var(--purple);
     color: var(--white);
-    padding: 10px;
+    /* padding: 10px; */
     height: 80px;
-    float: right;
+    /* float: right; */
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
@@ -138,6 +138,10 @@ figure {
     text-align: center;
     /* padding: 40px 10px; */
     text-decoration: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 img {
@@ -153,9 +157,9 @@ img {
     height: 100%;
 }
 
-.row {
+/* .row {
     display: flex;
-}
+} */
 
 .right {
     display: flex;
