@@ -3,6 +3,8 @@
     --purple: #5c1c9c;
     --white: white;
     --gray: #bcadbd;
+    --light: #b39bcb;
+    --dark:#76d776;
 }
 
 body {
@@ -20,34 +22,9 @@ h1 {
     font-weight: 60;
     color: var(--white);
 
-
-    /* display: inline-block;
-    height: 50px;
-    padding: 0 30px;
-    color: var(--white);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 60;
-    line-height: 38px;
-    text-transform: lowercase;
-    white-space: nowrap;
-    background-color: var(--purple);
-    border: 1px solid rgb(255, 255, 255);
-    box-sizing: border-box;  */
-
 }
 
 
-/* div {
-    background-color: var(--purple);
-    padding: 10px;
-    height: 30px;
-     float: center;
-     text-align: center;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 60;
-     color:var(--white);
-} */
 
 
 .saved-activities {
@@ -60,6 +37,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
+    box-shadow: 0px 0px 50px var(--dark);
 
 }
 
@@ -99,6 +77,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
+    box-shadow: 0px 0px 50px var(--dark);
 }
 
 #save {
@@ -113,22 +92,6 @@ h1 {
     border: 3px solid var(--white);
 }
 
-/* display: inline-block;
-    height: 50px;
-    padding: 0 30px;
-    color: var(--white);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 60;
-    line-height: 38px;
-    text-transform: lowercase;
-    white-space: nowrap;
-    background-color: var(--purple);
-    border-radius: 0px;
-    border: 1px solid rgb(255, 255, 255);
-    cursor: pointer;
-    box-sizing: border-box; 
-    float: right; */
 
 
 figure {
@@ -148,7 +111,8 @@ img {
     height: 40px;
     float: left;
     width: 40px;
-    border: 9px ridge var(--blue);
+    border: 9px ridge var(--purple);
+    box-shadow: 0px 0px 50px var(--dark);
 }
 
 
@@ -165,3 +129,58 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+
+/* word art for the title */
+.wordart {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .wordart.tilt {
+      display: inline-block;
+      transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+      -webkit-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+      -moz-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+      -o-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+      -ms-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+  }
+
+  .text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      background: var(--dark);
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+      background: -moz-linear-gradient(top, var(--dark) 0%, var(--light) 73%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, var(--dark)), color-stop(73%, var(--light)));
+      background: -webkit-linear-gradient(top, var(--dark) 0%, var(--light) 73%);
+      background: -o-linear-gradient(top, var(--dark) 0%, var(--light) 73%);
+      background: -ms-linear-gradient(top, var(--dark) 0%, var(--light) 73%);
+      background: linear-gradient(to bottom, var(--dark) 0%, var(--light) 73%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--dark)', endColorstr='var(--light)', GradientType=0);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.01em;
+      -webkit-text-stroke: 0.01em #A3A3A3;
+      filter: progid:DXImageTransform.Microsoft.Glow(Color=#a3a3a3, Strength=1);
+  }
+  
+  .text:before {
+      content: attr(data-text);
+      position: absolute;
+      z-index: -1;
+      top: 0.17em;
+      -webkit-text-fill-color: #6D4916;
+      -webkit-background-clip: border-box;
+      transform: perspective(1em) rotateX(65deg) scale(0.77);
+      -webkit-transform: perspective(1em) rotateX(65deg) scale(0.77);
+      -moz-transform: perspective(1em) rotateX(65deg) scale(0.77);
+      -o-transform: perspective(1em) rotateX(65deg) scale(0.77);
+      -ms-transform: perspective(1em) rotateX(65deg) scale(0.77);
+  }
