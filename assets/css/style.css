@@ -4,7 +4,8 @@
     --white: white;
     --gray: #bcadbd;
     --light: #b39bcb;
-    --dark:#76d776;
+    --dark:#29ff29;
+    --shadow: orange;
 }
 
 body {
@@ -36,9 +37,10 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
-    border: 3px solid var(--white);
-    box-shadow: 0px 0px 50px var(--dark);
+}
 
+.saved-activities:hover {
+    box-shadow: 0px 0px 50px var(--dark);
 }
 
 .speech {
@@ -52,6 +54,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:relative;
     font-size: 20px;
+    box-shadow: 0px 0px 50px var(--shadow);
 }
 
 .b1:before {
@@ -65,6 +68,7 @@ h1 {
     border-bottom: 10px solid transparent;
     left: -19px;
     top: 6px;
+    box-shadow: 0px 0px 50px var(--shadow);
   }
 
 #generate {
@@ -77,6 +81,8 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
+}
+#generate:hover {
     box-shadow: 0px 0px 50px var(--dark);
 }
 
@@ -90,6 +96,10 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
+}
+
+#save:hover {
+    box-shadow: 0px 0px 50px var(--dark);
 }
 
 
@@ -112,7 +122,7 @@ img {
     float: left;
     width: 40px;
     border: 9px ridge var(--purple);
-    box-shadow: 0px 0px 50px var(--dark);
+    box-shadow: 0px 0px 50px var(--shadow);
 }
 
 
