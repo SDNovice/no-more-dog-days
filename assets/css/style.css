@@ -189,6 +189,7 @@ img {
       top: 0.17em;
       -webkit-text-fill-color: #6D4916;
       -webkit-background-clip: border-box;
+      background-clip: border-box;
       transform: perspective(1em) rotateX(65deg) scale(0.77);
       -webkit-transform: perspective(1em) rotateX(65deg) scale(0.77);
       -moz-transform: perspective(1em) rotateX(65deg) scale(0.77);
