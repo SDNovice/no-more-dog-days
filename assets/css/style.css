@@ -223,10 +223,11 @@ img {
   }
 
   h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
+    font-size: 30px;
     color: var(--purple);
   }
 
