@@ -9,9 +9,10 @@
 
 }
 
+
 body {
     background-image: url(./emily-bernal-r2F5ZIEUPtk-unsplash.jpg);
-
+    
 }
 
 
@@ -217,7 +218,7 @@ img {
     border-radius: 0px;
   }
 
-  
+
   h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
