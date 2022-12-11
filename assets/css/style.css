@@ -235,7 +235,16 @@ img {
     text-align: center;
   }
 
+  #displaySv:hover {
+    box-shadow: 0px 0px 50px var(--dark);
+}
+  
+
   #gen,
   #displaySv {
    margin-left: 30px;
+  }
+
+  .pink {
+    
   }
