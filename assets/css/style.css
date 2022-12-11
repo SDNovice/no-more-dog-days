@@ -12,8 +12,8 @@
 
 body {
     background-image: url(./emily-bernal-r2F5ZIEUPtk-unsplash.jpg);
-    
 }
+
 
 
 h1 {
@@ -21,11 +21,10 @@ h1 {
     padding: 30px;
     float: center;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 60;
     color: var(--white);
     text-indent: 80px;
-
 }
 
 
@@ -38,7 +37,7 @@ h1 {
     height: 80px;
     float: center;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
     border-radius: 0px;
@@ -83,7 +82,7 @@ h1 {
     height: 80px;
     /* float: left; */
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
     border-radius: 0px;
@@ -100,7 +99,7 @@ h1 {
     height: 80px;
     /* float: right; */
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 60;
     border: 3px solid var(--white);
     border-radius: 0px;
@@ -121,6 +120,7 @@ figure {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    
 }
 
 img {
@@ -149,7 +149,7 @@ img {
 /* word art for the title */
 .wordart {
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     font-weight: bold;
     position: relative;
@@ -217,7 +217,10 @@ img {
     border: 3px solid var(--white);
     border-radius: 0px;
   }
-
+  
+  #activity {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 
   h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -228,7 +231,7 @@ img {
   }
 
   #savedActs {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
@@ -243,8 +246,8 @@ img {
   #gen,
   #displaySv {
    margin-left: 30px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  .pink {
-    
-  }
+  
+
