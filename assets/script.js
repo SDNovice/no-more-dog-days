@@ -1,5 +1,6 @@
 var localStorageKey = "ActText";
-
+// This event listner helps logs the page info to make sure 
+// that both pages are fully loaded.
 document.addEventListener('DOMContentLoaded', function (){
 	var pageId = document.getElementsByTagName('body')[0].id;
 	console.log('pageID = ', pageId);
@@ -12,7 +13,8 @@ document.addEventListener('DOMContentLoaded', function (){
 		page2();
 	}
 });
-
+// This function will be fetching information from both our
+// server side APIs and targets what we need to pull.
 function findAct(){
 var dogPics = "https://dog.ceo/api/breeds/image/random"
 fetch (dogPics)
@@ -35,11 +37,29 @@ fetch(bored)
             span.textContent = activity + " ";
         });
 }
-
+// We will have a random dog photo using part of the function 
+// above, if we call it, it will also load an activity which
+// we want to happen after an event listner.
+var bored = "https://www.boredapi.com/api/activity"
+fetch(bored)
+    .then (function (response){
+        return response.json();
+    })
+        .then( function (data){
+            var activity = data.activity;
+            var span = document.querySelector('span');
+            span.textContent = activity + " ";
+        });
+// This event listener will trigger the findAct function so
+// that way we can pull photos and activities from our APIs
+// on the same click.
 var gnBtn = document.getElementById('generate');
 gnBtn.addEventListener('click', findAct);
 
 //page 1
+// This will save the activities that the user wants to keep
+// and sorts them into an array. After that they can then move
+// to our second page, and look at their saved activities.
 function page1() {
 	var ActTextEl = document.getElementById('activity');
 	var btn1El = document.getElementById('save');
@@ -60,6 +80,8 @@ function page1() {
 }
 
 //page 2
+// This will display any previous activities and allow the user
+// to link back to the homepage.
 function page2() {
 	var ActEl = document.getElementById('savedActs');
 	var btn2El = document.getElementById('displaySv');
